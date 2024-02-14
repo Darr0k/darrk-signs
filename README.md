@@ -1,8 +1,8 @@
 # Dependencies
 
-[ox_lib](https://github.com/overextended/ox_lib/releases) - Use the latest release. If you do not use the latest release, MAKE SURE TO BUILD THE UI. Find their docs here on how to build the UI.
-[qb-core](https://github.com/qbcore-framework/qb-core).
-[qb-target](https://github.com/qbcore-framework/qb-target).
+1. [ox_lib](https://github.com/overextended/ox_lib/releases) - Use the latest release. If you do not use the latest release, MAKE SURE TO BUILD THE UI. Find their docs here on how to build the UI.
+2. [qb-core](https://github.com/qbcore-framework/qb-core).
+3. [qb-target](https://github.com/qbcore-framework/qb-target).
 
 # Add to qb-core/shared/items.lua
 ```lua
