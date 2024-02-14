@@ -1,6 +1,6 @@
 # darrk-signs
 
-Add to qb-core/shared/items.lua
+**Add to qb-core/shared/items.lua**
 ```lua
 minecraft_sign = {
     name = "minecraft_sign",
@@ -28,6 +28,7 @@ floor_sign = {
 },
 ```
 
-Add to qb-inventory/html/images
+**Add to qb-inventory/html/images**
+
 ![floor_sign](https://github.com/Darr0k/darrk-signs/assets/96451713/d6cadd30-19ee-401b-bfb4-101644c3157d)
 ![minecraft_sign](https://github.com/Darr0k/darrk-signs/assets/96451713/24b05778-dd39-40b1-855c-00129a650839)
