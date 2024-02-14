@@ -1,0 +1,47 @@
+@import "https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic";
+
+body {
+	overflow: hidden;
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Nunito;
+}
+
+.content {
+	position: absolute;
+	right: 6vh;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 23%;
+	height: max-content;
+	min-height: 30%;
+	max-height: 50%;
+	background: #1d1d1d;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 0.5%;
+	border-radius: 1.5%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.content p {
+	font-size: 1.3vh;
+}
+
+.content .important {
+	position: absolute;
+	bottom: 1vh;
+	right: 1vh;
+	font-size: 1vh;
+	color: #fff6;
+	font-style: italic;
+	background: #1d1d1d;
+}
+
+.content img {
+	width: 70%;
+}
