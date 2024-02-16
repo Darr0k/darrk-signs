@@ -71,17 +71,13 @@ end)
 -- Creating items Loop
 for i = 1, #Shared.Items do
     local thing = Shared.Items[i]
-    if QBCore.Shared.Items[thing.item].useable then
-        QBCore.Functions.CreateUseableItem(thing.item, function(source, item)
-            local src = source
-            local Player = QBCore.Functions.GetPlayer(src)
-            if Player.Functions.GetItemByName(item.name) then
-                TriggerClientEvent('darrk-signs/client/setupSign', src, thing.item, thing.prop, item.slot, thing.zPlus)
-            end
-        end)
-    else
-        lib.print.warn(("%s is not registerd as a useable items!"):format(thing.item))
-    end
+    QBCore.Functions.CreateUseableItem(thing.item, function(source, item)
+        local src = source
+        local Player = QBCore.Functions.GetPlayer(src)
+        if Player.Functions.GetItemByName(item.name) then
+            TriggerClientEvent('darrk-signs/client/setupSign', src, thing.item, thing.prop, item.slot, thing.zPlus)
+        end
+    end)
 end
 
 -- Handlers
